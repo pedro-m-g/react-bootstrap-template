@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Bootstrap Template
 
-## Available Scripts
+Proyecto generado con la herramienta [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+Template de app React con las siguientes características instaladas:
+- [SCSS](https://sass-lang.com/guide)
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
+- [React Icons](https://react-icons.netlify.com/#/icons/fa)
+- [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+
+## Instalación
+
+Para instalar el proyecto, ejecuta el comando `yarn`. Se pueden consultar las instrucciones para
+instalar yarn en el [sitio oficial](https://classic.yarnpkg.com/en/docs/install/).
+
+## Scripts
+
+Desde el directorio de proyecto, se pueden ejecutar los siguientes comandos:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Inicia el servidor de desarrollo.<br />
+El comando abrirá la app en tu navegador predeterminado.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Las páginas de la app se actualizarán conforme se edita el código.<br />
+Los errores que tenga el código aparecerán en consola.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia el servidor de pruebas.<br />
+Ver la sección de [pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Genera una versión de producción de la app en el directorio `build`.<br />
+Ver la sección de [despliegue](https://facebook.github.io/create-react-app/docs/deployment) par amás información.
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Nota: Operación irreversible**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Retirar estos scripts del proyecto. Esto puede ser util si se desea integrar herramientas externas incompatibles con
+esta configuración.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Se pueden agregar más scripts en la entrada "scripts" del archivo `package.json`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Estructura del proyecto
 
-## Learn More
+- **public/**: Contiene recursos estáticos de la app, incluyendo los archivos `index.html` y `favicon.ico`.
+- **src/**: Contiene el código fuente de la app.
+    - **assets/**: Contiene imágenes y SCSS.
+    - **components/**: Contiene los componentes React de la app.
+    - **views/**: Contiene las vistas asignadas a rutas de React Router.
+    - **hooks/**: Contiene React Hooks, los cuales son funciones reutilizables entre componentes. Para más
+        información consulte la [documentación de React Hooks](https://es.reactjs.org/docs/hooks-intro.html).
+    - **services/**: Contiene servicios utilizados por la app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
