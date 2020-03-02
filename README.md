@@ -11,7 +11,7 @@ Template de app React con las siguientes características instaladas:
 
 ## Instalación
 
-Para instalar el proyecto, ejecuta el comando `yarn`. Se pueden consultar las instrucciones para
+Para instalar el proyecto, se puede ejecutar el comando `yarn` desde este directorio. Se pueden consultar las instrucciones para
 instalar yarn en el [sitio oficial](https://classic.yarnpkg.com/en/docs/install/).
 
 ## Scripts
@@ -21,7 +21,7 @@ Desde el directorio de proyecto, se pueden ejecutar los siguientes comandos:
 ### `yarn start`
 
 Inicia el servidor de desarrollo.<br />
-El comando abrirá la app en tu navegador predeterminado.
+El comando abrirá la app en el navegador predeterminado.
 
 Las páginas de la app se actualizarán conforme se edita el código.<br />
 Los errores que tenga el código aparecerán en consola.
@@ -51,9 +51,7 @@ Se pueden agregar más scripts en la entrada "scripts" del archivo `package.json
 - **src/**: Contiene el código fuente de la app.
     - **assets/**: Contiene imágenes y SCSS.
     - **components/**: Contiene los componentes React de la app.
-    - **views/**: Contiene las vistas asignadas a rutas de React Router.
     - **hooks/**: Contiene React Hooks, los cuales son funciones reutilizables entre componentes. Para más
         información consulte la [documentación de React Hooks](https://es.reactjs.org/docs/hooks-intro.html).
     - **services/**: Contiene servicios utilizados por la app.
-
-
+    - **views/**: Contiene las vistas asignadas a rutas de React Router.
