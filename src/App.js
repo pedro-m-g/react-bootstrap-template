@@ -1,10 +1,19 @@
 import React from 'react';
+import {
+  BrowserRouter as Router
+} from 'react-router-dom';
+import AppBar from './AppBar';
+import AppRouter from './AppRouter';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div>
-      Hello world
-    </div>
+    <Router>
+      <AppBar />
+      <Container fluid>
+        <AppRouter />
+      </Container>
+    </Router>
   );
 }
 
